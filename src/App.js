@@ -21,6 +21,14 @@ const App = () => {
       </div>
     );
 
-  return <div className="container mt-5">{retriveItem}</div>;
+  return (
+    <>
+      <h1 className="text-center">Products List</h1>
+    <div className="container mt-5">
+    
+      {retriveItem}
+    </div>
+    </>
+  );
 };
 export default App;
