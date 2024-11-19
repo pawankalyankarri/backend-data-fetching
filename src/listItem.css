@@ -1,0 +1,18 @@
+.card{
+    width: 250px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 15px;
+   
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 15px;
+}
+.container{
+    display: flex;
+    flex-wrap:wrap;
+   gap:10px;
+}
